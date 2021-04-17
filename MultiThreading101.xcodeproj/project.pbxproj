@@ -9,13 +9,22 @@
 /* Begin PBXBuildFile section */
 		102090E7262A743400C4DB4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102090E6262A743400C4DB4C /* AppDelegate.swift */; };
 		102090E9262A743400C4DB4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102090E8262A743400C4DB4C /* SceneDelegate.swift */; };
-		102090EB262A743400C4DB4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102090EA262A743400C4DB4C /* ViewController.swift */; };
 		102090EE262A743400C4DB4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 102090EC262A743400C4DB4C /* Main.storyboard */; };
 		102090F1262A743400C4DB4C /* MultiThreading101.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 102090EF262A743400C4DB4C /* MultiThreading101.xcdatamodeld */; };
 		102090F3262A743500C4DB4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 102090F2262A743500C4DB4C /* Assets.xcassets */; };
 		102090F6262A743500C4DB4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 102090F4262A743500C4DB4C /* LaunchScreen.storyboard */; };
 		10209101262A743500C4DB4C /* MultiThreading101Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10209100262A743500C4DB4C /* MultiThreading101Tests.swift */; };
 		1020910C262A743500C4DB4C /* MultiThreading101UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1020910B262A743500C4DB4C /* MultiThreading101UITests.swift */; };
+		1020912D262A762500C4DB4C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1020912C262A762500C4DB4C /* MainViewController.swift */; };
+		10209132262A791C00C4DB4C /* MainViewController+CreateElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10209131262A791C00C4DB4C /* MainViewController+CreateElements.swift */; };
+		10209140262A7A9F00C4DB4C /* MainVSBackgroundThreadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1020913F262A7A9F00C4DB4C /* MainVSBackgroundThreadViewController.swift */; };
+		10209145262A7C6400C4DB4C /* MainVSBackgroundThreadViewConstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10209144262A7C6400C4DB4C /* MainVSBackgroundThreadViewConstructor.swift */; };
+		10209157262AB24D00C4DB4C /* DispatchWorkItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10209156262AB24D00C4DB4C /* DispatchWorkItemViewController.swift */; };
+		1020915C262AB25E00C4DB4C /* DispatchWorkItemViewConstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1020915B262AB25E00C4DB4C /* DispatchWorkItemViewConstructor.swift */; };
+		104A1FCE262ACA030040D704 /* SwiftGCDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104A1FCD262ACA030040D704 /* SwiftGCDViewController.swift */; };
+		104A1FD3262ACA0B0040D704 /* SwiftGCDViewConstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104A1FD2262ACA0B0040D704 /* SwiftGCDViewConstructor.swift */; };
+		104A1FDC262AD4320040D704 /* GroupQueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104A1FDB262AD4320040D704 /* GroupQueueViewController.swift */; };
+		104A1FE1262AD4780040D704 /* GroupQueueViewConstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104A1FE0262AD4780040D704 /* GroupQueueViewConstructor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +48,6 @@
 		102090E3262A743400C4DB4C /* MultiThreading101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiThreading101.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		102090E6262A743400C4DB4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		102090E8262A743400C4DB4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		102090EA262A743400C4DB4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		102090ED262A743400C4DB4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		102090F0262A743400C4DB4C /* MultiThreading101.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MultiThreading101.xcdatamodel; sourceTree = "<group>"; };
 		102090F2262A743500C4DB4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +59,16 @@
 		10209107262A743500C4DB4C /* MultiThreading101UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiThreading101UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1020910B262A743500C4DB4C /* MultiThreading101UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiThreading101UITests.swift; sourceTree = "<group>"; };
 		1020910D262A743500C4DB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1020912C262A762500C4DB4C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		10209131262A791C00C4DB4C /* MainViewController+CreateElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+CreateElements.swift"; sourceTree = "<group>"; };
+		1020913F262A7A9F00C4DB4C /* MainVSBackgroundThreadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVSBackgroundThreadViewController.swift; sourceTree = "<group>"; };
+		10209144262A7C6400C4DB4C /* MainVSBackgroundThreadViewConstructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVSBackgroundThreadViewConstructor.swift; sourceTree = "<group>"; };
+		10209156262AB24D00C4DB4C /* DispatchWorkItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchWorkItemViewController.swift; sourceTree = "<group>"; };
+		1020915B262AB25E00C4DB4C /* DispatchWorkItemViewConstructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchWorkItemViewConstructor.swift; sourceTree = "<group>"; };
+		104A1FCD262ACA030040D704 /* SwiftGCDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGCDViewController.swift; sourceTree = "<group>"; };
+		104A1FD2262ACA0B0040D704 /* SwiftGCDViewConstructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGCDViewConstructor.swift; sourceTree = "<group>"; };
+		104A1FDB262AD4320040D704 /* GroupQueueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupQueueViewController.swift; sourceTree = "<group>"; };
+		104A1FE0262AD4780040D704 /* GroupQueueViewConstructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupQueueViewConstructor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +119,12 @@
 		102090E5262A743400C4DB4C /* MultiThreading101 */ = {
 			isa = PBXGroup;
 			children = (
-				102090E6262A743400C4DB4C /* AppDelegate.swift */,
-				102090E8262A743400C4DB4C /* SceneDelegate.swift */,
-				102090EA262A743400C4DB4C /* ViewController.swift */,
-				102090EC262A743400C4DB4C /* Main.storyboard */,
+				1020911C262A744D00C4DB4C /* ApplicationKit */,
+				10209128262A760900C4DB4C /* Main */,
+				104A1FCC262AC9E80040D704 /* Swift GCD */,
+				10209136262A798200C4DB4C /* MainVSBackgroundThread */,
+				104A1FDA262AD3F00040D704 /* GroupQueue */,
+				10209155262AB23500C4DB4C /* WorkItem */,
 				102090F2262A743500C4DB4C /* Assets.xcassets */,
 				102090F4262A743500C4DB4C /* LaunchScreen.storyboard */,
 				102090F7262A743500C4DB4C /* Info.plist */,
@@ -129,6 +149,61 @@
 				1020910D262A743500C4DB4C /* Info.plist */,
 			);
 			path = MultiThreading101UITests;
+			sourceTree = "<group>";
+		};
+		1020911C262A744D00C4DB4C /* ApplicationKit */ = {
+			isa = PBXGroup;
+			children = (
+				102090E6262A743400C4DB4C /* AppDelegate.swift */,
+				102090E8262A743400C4DB4C /* SceneDelegate.swift */,
+			);
+			path = ApplicationKit;
+			sourceTree = "<group>";
+		};
+		10209128262A760900C4DB4C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				102090EC262A743400C4DB4C /* Main.storyboard */,
+				1020912C262A762500C4DB4C /* MainViewController.swift */,
+				10209131262A791C00C4DB4C /* MainViewController+CreateElements.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		10209136262A798200C4DB4C /* MainVSBackgroundThread */ = {
+			isa = PBXGroup;
+			children = (
+				10209144262A7C6400C4DB4C /* MainVSBackgroundThreadViewConstructor.swift */,
+				1020913F262A7A9F00C4DB4C /* MainVSBackgroundThreadViewController.swift */,
+			);
+			path = MainVSBackgroundThread;
+			sourceTree = "<group>";
+		};
+		10209155262AB23500C4DB4C /* WorkItem */ = {
+			isa = PBXGroup;
+			children = (
+				1020915B262AB25E00C4DB4C /* DispatchWorkItemViewConstructor.swift */,
+				10209156262AB24D00C4DB4C /* DispatchWorkItemViewController.swift */,
+			);
+			path = WorkItem;
+			sourceTree = "<group>";
+		};
+		104A1FCC262AC9E80040D704 /* Swift GCD */ = {
+			isa = PBXGroup;
+			children = (
+				104A1FD2262ACA0B0040D704 /* SwiftGCDViewConstructor.swift */,
+				104A1FCD262ACA030040D704 /* SwiftGCDViewController.swift */,
+			);
+			path = "Swift GCD";
+			sourceTree = "<group>";
+		};
+		104A1FDA262AD3F00040D704 /* GroupQueue */ = {
+			isa = PBXGroup;
+			children = (
+				104A1FE0262AD4780040D704 /* GroupQueueViewConstructor.swift */,
+				104A1FDB262AD4320040D704 /* GroupQueueViewController.swift */,
+			);
+			path = GroupQueue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +336,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				102090EB262A743400C4DB4C /* ViewController.swift in Sources */,
+				10209132262A791C00C4DB4C /* MainViewController+CreateElements.swift in Sources */,
+				10209145262A7C6400C4DB4C /* MainVSBackgroundThreadViewConstructor.swift in Sources */,
+				104A1FDC262AD4320040D704 /* GroupQueueViewController.swift in Sources */,
 				102090F1262A743400C4DB4C /* MultiThreading101.xcdatamodeld in Sources */,
+				104A1FCE262ACA030040D704 /* SwiftGCDViewController.swift in Sources */,
+				10209140262A7A9F00C4DB4C /* MainVSBackgroundThreadViewController.swift in Sources */,
 				102090E7262A743400C4DB4C /* AppDelegate.swift in Sources */,
+				104A1FE1262AD4780040D704 /* GroupQueueViewConstructor.swift in Sources */,
 				102090E9262A743400C4DB4C /* SceneDelegate.swift in Sources */,
+				1020915C262AB25E00C4DB4C /* DispatchWorkItemViewConstructor.swift in Sources */,
+				10209157262AB24D00C4DB4C /* DispatchWorkItemViewController.swift in Sources */,
+				104A1FD3262ACA0B0040D704 /* SwiftGCDViewConstructor.swift in Sources */,
+				1020912D262A762500C4DB4C /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
